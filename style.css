@@ -706,6 +706,41 @@ footer p {
   text-transform: uppercase;
   line-height: 1.8;
 }
+.footer-sources {
+  margin-top: 20px;
+  text-align: left;
+  display: inline-block;
+  max-width: 700px;
+  width: 100%;
+}
+.footer-sources-title {
+  font-family: 'DM Mono', monospace;
+  font-size: 9px;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 10px;
+}
+.footer-source-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.footer-source-list li {
+  font-family: 'DM Mono', monospace;
+  font-size: 10px;
+  line-height: 1.8;
+  border-bottom: 1px solid #1f1a16;
+  padding: 4px 0;
+}
+.footer-source-list a {
+  color: var(--mid);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.footer-source-list a:hover {
+  color: var(--gold);
+}
 
 /* ════════════════════════════════════════════════
    ANIMATIONS
